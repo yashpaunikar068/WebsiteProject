@@ -1,0 +1,73 @@
+/*global styling*/
+.container{
+    width: 80%;
+    margin: auto;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height:2;
+    padding: 0;
+    margin: 0;
+    background-color: tan;
+}
+
+/*header styling*/
+header{
+    background: cadetblue;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom:10px;
+    min-height: 45px;
+}
+header li{
+    display: inline;
+    padding-right: 30px;
+    padding-left: 72px;
+    align-items: center;
+}
+header ul{
+    padding: 0;
+    margin: 0;
+}
+header a{
+    font-size: 20px;
+    color: crimson;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: ivory;
+    font-weight: bolder;
+} 
+header .brighten, header .bolder a{
+    color: indigo;
+    font-weight: bold;
+}
+/*styling footer*/
+footer{
+    padding-bottom: 0.1%;
+    color:#fff;
+    background-color: red;
+    text-align: center;
+    font-size: small ;
+}
+
+/*styling display area*/
+#display{
+    min-height: 400px;
+    background: url('../img/physical.jpg') no-repeat  -100px;
+    text-align: center;
+    color: #fff;
+    background-position: right;
+    background-size: cover;
+}
+   
+#display h1{
+    margin-top:0px;
+    font-size: 50px;
+}
+#display p{
+    font-size: 20px;
+    font-weight: bolder;
+}
