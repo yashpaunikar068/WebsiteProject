@@ -1,1 +1,1 @@
-This site will have my portfolio and blog.
+Will be working on styling and a portfolio page
