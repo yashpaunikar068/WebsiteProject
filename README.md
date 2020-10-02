@@ -1,1 +1,1 @@
-Will be working on styling and a portfolio page
+This project contains my site and blog on Physical fitness

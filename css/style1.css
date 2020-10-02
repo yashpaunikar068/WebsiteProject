@@ -19,7 +19,7 @@ body{
 }
 
 .text-primary {
-    color: #3693ff;
+    color: orange;
 }
 /*navbar*/
 #navbar{
@@ -31,7 +31,7 @@ body{
     position: sticky;
     top: 0;
     z-index: 1;
-    border-bottom: 4px solid #3693ff;
+    border-bottom: 4px solid orange;
 }
 #navbar ul {
     display: flex;
@@ -53,7 +53,7 @@ body{
 }
 
 #navbar li a:hover{
-    background-color: tan;
+    background-color: orange;
 }
 
 /*showcase*/
@@ -94,6 +94,8 @@ body{
 }
 #about p{
     margin-bottom: 1rem;
+    color: orange;
+    font-weight: bold;
 }
 
 #about .about-content{

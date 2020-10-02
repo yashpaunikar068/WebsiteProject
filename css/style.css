@@ -9,12 +9,21 @@ body{
     line-height:2;
     padding: 0;
     margin: 0;
-    background-color: tan;
+    background-color: wheat;
+}
+
+/*navbar*/
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 8rem;
+    top: 0;
+    z-index: 1;
 }
 
 /*header styling*/
 header{
-    background: cadetblue;
+    background: rgb(76, 58, 58);
     color: #fff;
     padding-top: 10px;
     padding-bottom:10px;
@@ -23,7 +32,7 @@ header{
 header li{
     display: inline;
     padding-right: 30px;
-    padding-left: 72px;
+    padding-left: 30px;
     align-items: center;
 }
 header ul{
@@ -41,7 +50,7 @@ header a:hover{
     font-weight: bolder;
 } 
 header .brighten, header .bolder a{
-    color: indigo;
+    color: rgb(42, 3, 10);
     font-weight: bold;
 }
 /*styling footer*/
@@ -77,12 +86,21 @@ footer{
     width: 210px;
     height: 170px;
 }
-
 /*video*/
 video{
     float: right;
     padding-right: 10px;
     height: 300px;
     width: 600px;
+}
+
+h1{
+    color: sienna;
+}
+h2{
+    color: sienna; 
+}
+h3{
+    color: sienna;
 }
 
